@@ -1,13 +1,39 @@
 $prefix: "../img/";
 $footer__height: 53px;
+$img__about: 
+    $prefix+"about-s1.jpg",
+    $prefix+"about-s2.jpg",
+    $prefix+"about-s3.jpg",
+    $prefix+"about-s4.jpg";
 $img__comingsoon: $prefix+"comingsoon.jpg"; 
+$img__contact: 
+    $prefix+"contact-s1.jpg",
+    $prefix+"contact-s2.jpg",
+    $prefix+"contact-s3.jpg";
 $img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$img__index: $prefix+"index-s1.jpg";
+$img__privacy: $img__index;
+$img__service: 
+    $prefix+"service-s1.jpg",
+    $prefix+"service-s2.jpg",
+    $prefix+"service-s3.jpg";
+$img__user: $prefix+"user-s1.jpg";
 $section__classes:
+    "about",
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "privacy",
+    "service",
+    "user";
 $section__images:
+    $img__about,
     $img__comingsoon,
+    $img__contact,
     $img__error,
-    $img__privacy;
+    $img__index,
+    $img__privacy,
+    $img__service,
+    $img__user;
+$text__shadow: 1px 1px 3px #333;

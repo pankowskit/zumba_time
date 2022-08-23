@@ -1,7 +1,77 @@
 @include aoa-bg-series($section__classes,$section__images);
 
+.about{
+    &-s1,&-s4{
+        background-blend-mode: multiply;
+        background-color: #666!important;
+    }
+}
 .comingsoon,.error,.privacy{
     &-s1{
         background-blend-mode: multiply;
+    }
+}
+.contact{
+    &-s3{
+        background-blend-mode: multiply;
+        background-color: #666!important;
+    }
+}
+.service{
+    &-s1,&-s3{
+        background-blend-mode: multiply;
+        background-color: #666!important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow:$text__shadow;
+    }
+}
+header{
+    z-index: 100;
+}
+@media all and (max-width: 767px){
+    .about{
+        &-s2,&-s3{
+            *{
+                color: #fff!important;
+            }
+            background-blend-mode: multiply;
+            background-color: #666!important;
+        }
+        &-s3{
+            background-position: top right;
+        }
+    }
+    .contact{
+        &-s1,&-s2{
+            *{
+                color: #fff!important;
+            }
+            background-blend-mode: multiply;
+            background-color: #666!important;
+        }
+        &-s1{
+            background-position: top right;
+        }
+    }
+    .index{
+        &-s1{
+            *{
+                color: #fff!important;
+            }
+            background-blend-mode: multiply;
+            background-color: #666!important;
+            background-position: top right;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #666;
+            border: 1px solid #333;
+            opacity:0.9;
+            padding: 10px;
+        }
     }
 }
